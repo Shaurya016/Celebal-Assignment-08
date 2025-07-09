@@ -1,0 +1,17 @@
+[20:52:24] Q: How does education level affect loan approval?
+A: Loan approval depends on the education level of the applicant.
+
+[20:52:34] Q: How does education level affect loan approval?
+A: The applicant is not self-employed, has an income of 5500, requested a loan amount of 170.0 and their loan was approved.
+
+[20:52:40] Q: What is the income range of approved loan applicants?
+A: 8072
+
+[20:52:47] Q: Are self-employed people more likely to get loans approved?
+A: yes
+
+[20:53:35] Q: How many female applicants got their loans approved?
+A: 3
+
+[20:53:41] Q: What loan amount is typically approved?
+A: 253.0
