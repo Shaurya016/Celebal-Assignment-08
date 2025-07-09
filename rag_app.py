@@ -12,7 +12,7 @@ st.markdown("Ask natural language questions about loan approvals using a smart R
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
-@st.cache_data
+@st.cache_resource
 def setup_rag():
     df = load_data()
     texts = prepare_texts(df)
@@ -50,3 +50,10 @@ if st.session_state.chat_history:
         st.markdown(f"**Q:** {q}")
         st.markdown(f"**A:** {a}")
         st.markdown("---")
+
+try:
+    answer = ask_rag_bot(query, embed_model, index, texts, generator)
+    top_chunks = get_top_k_chunks(query, embed_model, index, texts)
+except Exception as e:
+    st.error(f"❌ An error occurred: {e}")
+
