@@ -24,7 +24,7 @@ This project is a **Retrieval-Augmented Generation (RAG)** based chatbot that an
 | Interface     | Streamlit                           |
 | Embeddings    | SentenceTransformers (`MiniLM`)     |
 | Retrieval     | FAISS (vector similarity search)     |
-| Generation    | Hugging Face (`flan-t5-small`)       |
+| Generation    | Hugging Face (`flan-t5-base`)       |
 | Dataset       | Kaggle - Loan Approval Dataset       |
 
 ---
